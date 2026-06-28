@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from enum import Enum
 from datetime import datetime, timezone
 
-from src.domain.entity import Entity
+from src.entities.entity import Entity
 
 
 class IdeaStatus(Enum):

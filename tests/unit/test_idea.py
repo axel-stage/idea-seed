@@ -1,4 +1,4 @@
-from src.domain.idea import Idea, IdeaStatus, Priority
+from src.entities.idea import Idea, IdeaStatus, Priority
 
 
 def test_idea_model_init():
